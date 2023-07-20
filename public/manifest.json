@@ -4,8 +4,7 @@
   "description": "extension: change bing homepage background by Aeolus.Zhang",
   "action": {
     "default_title": "Open the popup",
-    "default_icon": "./icons/foot.png",
-    "default_popup": "./popup/popup.html"
+    "default_icon": "./icons/foot.png"
   },
   "content_scripts": [
     {
