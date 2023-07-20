@@ -1,0 +1,12 @@
+#sa_zis_PN {
+    display: none !important;
+}
+
+.hpl .scroll_cont {
+    display: none !important;
+}
+
+.hp_body.no_image .sbox {
+    top: 0 !important;
+    bottom: 15% !important;
+}

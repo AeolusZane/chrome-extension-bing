@@ -1,0 +1,28 @@
+{
+  "name": "hello extensions",
+  "version": "3.0.0",
+  "description": "extension change bing background",
+  "action": {
+    "default_title": "Open the popup",
+    "default_icon": "./icons/foot.png",
+    "default_popup": "./popup/popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://*.bing.com/*"],
+      "js": ["./content.js"],
+      "css": ["./content.css"]
+    },
+    {
+      "matches": ["https://*.google.com/*"],
+      "js": ["./inform.js"]
+    }
+  ],
+  "manifest_version": 3,
+  "web_accessible_resources": [
+    {
+      "resources": ["bg/*.jpg"],
+      "matches": ["https://*.bing.com/*"]
+    }
+  ]
+}
