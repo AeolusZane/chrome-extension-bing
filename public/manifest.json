@@ -1,7 +1,7 @@
 {
   "name": "hello extensions",
   "version": "3.0.0",
-  "description": "extension: change bing homepage background by Aeolus.Zhang",
+  "description": "extension change bing background",
   "action": {
     "default_title": "Open the popup",
     "default_icon": "./icons/foot.png",
@@ -18,6 +18,10 @@
   "web_accessible_resources": [
     {
       "resources": ["bg/*.jpg"],
+      "matches": ["https://*.bing.com/*"]
+    },
+    {
+      "resources": ["bg/*.mp4"],
       "matches": ["https://*.bing.com/*"]
     }
   ]
