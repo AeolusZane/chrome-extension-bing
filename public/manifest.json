@@ -12,10 +12,6 @@
       "matches": ["https://*.bing.com/*"],
       "js": ["./content.js"],
       "css": ["./content.css"]
-    },
-    {
-      "matches": ["https://*.google.com/*"],
-      "js": ["./inform.js"]
     }
   ],
   "manifest_version": 3,
