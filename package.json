@@ -2,5 +2,7 @@
   "name": "bing",
   "version": "1.0.0",
   "main": "index.js",
+  "description": "Bing Home Page Change",
+  "author": "Aeolus.Zhang",
   "license": "MIT"
 }

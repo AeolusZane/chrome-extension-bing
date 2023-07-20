@@ -1,7 +1,7 @@
 {
   "name": "hello extensions",
   "version": "3.0.0",
-  "description": "extension change bing background",
+  "description": "extension: change bing homepage background by Aeolus.Zhang",
   "action": {
     "default_title": "Open the popup",
     "default_icon": "./icons/foot.png",
