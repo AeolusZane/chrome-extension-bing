@@ -1,22 +1,23 @@
 #sa_zis_PN {
-    display: none !important;
+  display: none !important;
 }
 
 .hpl .scroll_cont {
-    display: none !important;
+  display: none !important;
 }
 
-.hp_body.no_image .sbox {
-    top: 0 !important;
-    bottom: 15% !important;
+.sbox {
+  top: 0 !important;
+  bottom: 15% !important;
+  position: absolute !important;
 }
 
 .bg-video {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: 10;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 10;
 }
