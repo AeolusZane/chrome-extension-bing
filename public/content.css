@@ -6,7 +6,7 @@
   display: none !important;
 }
 
-.sbox {
+.hp_cont .sbox {
   top: 0 !important;
   bottom: 15% !important;
   position: absolute !important;
