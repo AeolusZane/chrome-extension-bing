@@ -11,6 +11,10 @@
   bottom: 15% !important;
   position: absolute !important;
 }
+/* 拉销搜索框范围 */
+.sbox .c_show_box {
+  height: 0 !important;
+}
 
 .bg-video {
   position: fixed;
