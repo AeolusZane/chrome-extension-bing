@@ -12,7 +12,7 @@
   position: absolute !important;
 }
 /* 拉销搜索框范围 */
-.sbox .c_show_box {
+.sbox.c_show_box {
   height: 0 !important;
 }
 
