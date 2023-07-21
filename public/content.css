@@ -25,3 +25,25 @@
   object-fit: cover;
   z-index: 10;
 }
+.bg-video.hp_media_container {
+  background-size: cover !important;
+  z-index: 0;
+}
+.img_cont {
+  display: none !important;
+}
+.hp_top_cover {
+  display: none !important;
+}
+.head_cont {
+  display: none !important;
+}
+#idCont {
+  display: none !important;
+}
+.hp_body {
+  background: black !important;
+}
+.hide {
+  background: black !important;
+}
